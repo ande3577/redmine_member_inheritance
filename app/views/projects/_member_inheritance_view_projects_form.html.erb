@@ -1,0 +1,7 @@
+<% if project.new_record?%>
+	<%= javascript_include_tag 'member_inheritance', :plugin => 'redmine_member_inheritance' %>
+	
+	<p><%= form.check_box :inherit_members %>
+	
+	<%= javascript_tag "observeParentProject();" %>
+<% end %>
