@@ -1,5 +1,7 @@
 # Redmine Member Inheritance
 
+# Redmine 2.3 includes this functionality built in, plugin is obsolete.
+
 ## Overview
 
 A plugin to allow a newly create subproject to inherit all members from it's parent.
